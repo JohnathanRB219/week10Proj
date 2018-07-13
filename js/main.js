@@ -44,7 +44,7 @@ var shoeSize = document.createTextNode("Available size:" + " " + shoes[i].size)
 var shoeButton = document.createTextNode("Buy Now!")
 var shoeImage = shoes[i].image
 
-var newCol = document.createElement("DIV") 
+var newCol = document.createElement("DIV")
 var newDiv = document.createElement("DIV")
 var nameH1 = document.createElement("H1")
 var sizeH4 = document.createElement("H4")
@@ -63,7 +63,7 @@ image.src= shoeImage
 image.className = "img-responsive"
 
 
-newCol.className = "col-sm-4"
+newCol.className = "col-md-4"
 
 newDiv.appendChild(nameH1)
 newDiv.appendChild(image)
